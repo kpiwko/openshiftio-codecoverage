@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "org": "redhat-developer",
+      "type": "codecov.io"
+    },
+    {
+      "org": "fabric8-services",
+      "type": "codecov.io"
+    },
+    {
+      "org": "fabric8-analytics",
+      "type": "codecov.io"
+    },
+    {
+      "org": "fabric8-ui",
+      "type": "codecov.io"
+    },
+    {
+      "org": "minishift",
+      "type": "codecov.io"
+    },
+    {
+      "org": "fabric8io",
+      "type": "codecov.io"
+    },
+    {
+      "org": "org.jboss.tools:openshift",
+      "type": "sonarcloud.io",
+      "ghRepository": "https://github.com/jbosstools/jbosstools-build"
+    },
+    {
+      "org": "org.jboss.tools:server.all",
+      "type": "sonarcloud.io",
+      "ghRepository": "https://github.com/jbosstools/jbosstools-openshift"
+    }
+  ]
+}

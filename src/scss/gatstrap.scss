@@ -1,0 +1,172 @@
+// Colors
+//
+// Grayscale and brand colors for use across Bootstrap.
+
+// Start with assigning color names to specific hex values.
+//
+// Color system
+//
+@import './colors.scss';
+
+// Reassign color vars to semantic color scheme
+$theme-colors: (
+  primary: $blue,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $white,
+  dark: $gray-800,
+) !default;
+
+// Options
+//
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: true !default;
+$enable-shadows: true !default;
+$enable-gradients: false !default;
+$enable-transitions: false !default;
+$enable-hover-media-query: false !default;
+$enable-grid-classes: true !default;
+$enable-print-styles: true !default;
+
+$container-sm: 540px;
+$container-md: 640px;
+$container-lg: 710px;
+$container-xl: 780px;
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+$container-max-widths: (
+  sm: $container-sm,
+  md: $container-md,
+  lg: $container-lg,
+  xl: $container-xl,
+) !default;
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white !default;
+$body-color: $gray-700 !default;
+$inverse-bg: $gray-900 !default;
+$inverse-color: $gray-600 !default;
+
+// Links
+//
+// Style anchor elements.
+$link-decoration: none !default;
+$link-hover-decoration: none !default;
+
+// Fonts
+//
+@import './fonts.scss';
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-bottom: 15px;
+  max-width: 100%;
+}
+
+img:hover {
+  animation: pulse 0.5s;
+}
+
+div.offer ul {
+  list-style: disc; /* Remove list bullets */
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  color: $primary;
+}
+
+.offer h3 {
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.row-offer {
+  padding-top: 20px;
+}
+
+.offer {
+  border-radius: 15px;
+  padding: 25px;
+}
+
+.compact {
+  font-size: 12px;
+  line-height: 1;
+}
+
+.card-header {
+  background-color: $primary;
+  text-align: center;
+}
+
+.card-header h2,
+h5 {
+  color: $white;
+}
+
+.spacer-lg {
+  margin-top: 220px;
+}
+
+.spacer-md {
+  margin-top: 50px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+ol.lower-roman {
+  list-style-type: lower-roman;
+}
+
+#map {
+  width: 100%; 
+  height: 400px;
+  min-height: 400px;
+}
+
+div#map img { 
+  all: initial;
+}
+
+div#map div.card-header {
+  all: initial;
+}
+
+div#map div.card-footer {
+  all: initial;
+}
+
+
+div#map div.card {
+  z-index: 10;
+}

@@ -1,0 +1,22 @@
+@import 'scss/colors.scss';
+@import 'scss/fonts.scss';
+
+svg {
+  font-size: $display4-size;
+  display: inline-block;
+}
+
+.icon {
+  max-width: 400px;
+  margin: 50px auto 0;
+
+  svg {
+    font-size: $display4-size;
+    display: inline-block !important;
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    animation: pulse 0.5s;
+  }
+}
