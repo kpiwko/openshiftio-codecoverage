@@ -11,7 +11,7 @@ gatsby build
 
 ## Adding new repositories
 
-Update `sources.json` file. Currently it supports gathering data from *codecov.io* and *sonarcloud.io* services. Only repositories that publish data to those services are actually list.
+Update `sources.json` file. Currently it supports gathering data from *codecov.io* and *sonarcloud.io* services. Only repositories that publish data to those services are actually listed.
 
 ## Adding new services
 Have a look into `src/components/CodeCoverage` directory.
